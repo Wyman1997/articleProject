@@ -1,0 +1,282 @@
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.login-regist{
+  background-color: #2d3657;
+}
+
+.form-box{
+  margin: auto;
+	position: absolute;
+  top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  width: 400px;
+  height: 600px;
+  background-color: rgb(22, 21, 21);
+  border-radius: 15px; ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form, .login-form{
+  width: 300px;
+	height: 500px;
+  margin: auto;
+	position: absolute;
+  top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  text-align: center;
+  color:#fff;
+}
+
+.register-form input[type=text], .register-form input[type=password], .login-form input[type=text], .login-form input[type=password]{
+  display: block;
+  margin: 25px 10px;
+  padding: 10px 15px;
+  border: 2px solid;
+  width: 16rem;
+  border-radius: 4px;
+  background-color: lightgray;
+}
+
+.login-regist input[type=text]:hover, .login-form input[type=password]:hover{
+  background-color: white;
+}
+
+#submit{
+  background-color: #6bb66e;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#submit:hover{
+  background-color: #45a049;
+}
+
+
+.label{
+  width: 4rem;
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.content{
+  font-size: 16px;
+  margin: 25px auto;
+}
+
+#content a:link{
+  text-decoration: none;
+  color:rgb(248, 232, 232);
+}
+
+.bar{
+  overflow:hidden;
+  background-color: #333;
+  font-size: 15px;;
+}
+
+
+
+.bar a{
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.bar span{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 100px;
+}
+
+.bar a:hover{
+  background-color: #ddd;
+  color:black;
+}
+
+.home{
+  position:absolute;
+  left: 0px;
+}
+
+.home img{
+  display: block;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  float: left;
+} 
+
+.bgcolor{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(133, 154, 182);
+}
+
+.article{
+  text-align: center;
+  height: 100%;
+}
+
+.article form input[type=text]{
+  width:60% ;
+  height: 40px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+
+.article form textarea{
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  height: 500px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.article form input[type=submit]{
+  display: block;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.list{
+  width: 90%;
+  margin: 40px auto;
+}
+
+.list>div.row{
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 60px;
+  border-bottom: 1px solid #d9d9d9;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.list>div.row:nth-child(odd){
+  background-color: #ffffff;;
+}
+
+.list>div.row:nth-child(even){
+  background-color: #f2f2f2;;
+}
+
+
+.list>.row>span{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  -o-text-overflow: ellipsis;
+  white-space:nowrap;
+}
+
+.list>.row>span:nth-child(1){
+  text-align: center;
+  width: 10%;
+}
+
+.list>.row>span:nth-child(2){
+
+  text-align: center;
+  width: 10%;
+}
+
+.list>.row>span:nth-child(3){
+
+  width: 30%;
+}
+
+
+.list>.row>span:nth-child(4){
+  width: 20%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.list>.row>span:nth-child(5){
+  width: 10%;
+  text-align: right;
+}
+
+.list>.row>span:nth-child(6){
+  width: 10%;
+  text-align:left;
+}
+
+.pages{
+  float: right;
+  margin: 10px 20px;
+  font-size: medium;
+}
+
+.pages a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  margin: auto 5px;
+}
+
+.row span a{
+  text-decoration: none;
+  color: black;
+}
+
+.row span a:hover{
+  color: #45a049;
+}
+
+.detail{
+  margin: 50px auto;
+  width: 60%;
+  height: 100%;
+  border: 3px solid #252524;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+}
+
+.detail .title{
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.detail .content{
+  font-size: 18px;
+  color: black;
+  text-align:justify;
+  text-indent:50px;
+}
